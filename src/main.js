@@ -1,7 +1,7 @@
 import iziToast from 'izitoast';
 import SimpleLightbox from 'simplelightbox';
-import { createMarkup } from './render-functions';
-import { getPictures } from './pixabay-api.js';
+import { createMarkup } from './js/render-functions';
+import { getPictures } from './js/pixabay-api';
 
 const formSearch = document.querySelector('.form');
 const listImages = document.querySelector('.gallery');
